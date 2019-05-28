@@ -22,6 +22,6 @@ public class MdcLogEnhancerFilter implements Filter {
 
     @Override
     public void destroy() {
-
+        MDC.clear();
     }
 }
